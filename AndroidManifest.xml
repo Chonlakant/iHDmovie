@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cloudtist.ihd"
+    android:versionCode="5"
+    android:versionName="1.4" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    
+
+
+    <!-- IMPORTANT: Change "com.codemobiles.cmapppush" to match your app's package name. -->
+    <permission
+        android:name="com.sattboot.horizontallistview.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.sattboot.horizontallistview.permission.C2D_MESSAGE" />
+
+    <application
+        android:name="info.ihd.customlistviewvolley.app.AppController"
+        android:allowBackup="true"
+		android:largeHeap="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/CustomTheme" >
+        <activity
+            android:name="com.cloudtist.ihd.SplashScreenActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cloudtist.ihd.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name="com.cloudtist.ihd.Detail" >
+        </activity>
+        <activity android:name="Player" >
+        </activity>
+        <activity android:name="VideoPlayerActivity" >
+        </activity>
+        <activity android:name="Login" >
+        </activity>
+        <activity android:name="Register" >
+        </activity>
+        <activity android:name="GridView1" >
+        </activity>
+        <activity android:name="JoinNow" >
+        </activity>
+        <activity android:name="com.learn2crack.tab.MainActivityCard" >
+        </activity>
+        <activity android:name="MovieCard" >
+        </activity>
+        <activity android:name="MovieCardRegister" >
+        </activity>
+        <activity android:name="Serach" >
+        </activity>
+        <activity android:name="info.androidhive.customlistviewvolley.util.MainActivitySearch" >
+        </activity>
+        <activity android:name="GridView3" >
+        </activity>
+        <activity android:name="GridView2" >
+        </activity>
+        <activity android:name="HelloInterruptVideoStream" >
+        </activity>
+        <activity android:name="GridView4" >
+        </activity>
+        <activity android:name="GridView0" >
+        </activity>
+        <activity android:name="GridView5" >
+        </activity>
+        <activity android:name="GridView6" >
+        </activity>
+        <activity android:name="GridView_series1" >
+        </activity>
+        <activity android:name="GridView_series2" >
+        </activity>
+        <activity android:name="GridView_series3" >
+        </activity>
+        <activity android:name="GridView_series4" >
+        </activity>
+        <activity android:name="GridView_series5" >
+        </activity>
+        <activity android:name="GridView_series6" >
+        </activity>
+        <activity android:name="GridView_series7" >
+        </activity>
+        <activity android:name="GridView_series8" >
+        </activity>
+        <activity android:name="GridView_series9" >
+        </activity>
+        <activity android:name="GridView_series10" >
+        </activity>
+        <activity android:name="GridView_series11" >
+        </activity>
+        <activity android:name="GridView_series12" >
+        </activity>
+        <activity android:name="GridView_series13" >
+        </activity>
+        <activity android:name="GridView_series14" >
+        </activity>
+        <activity android:name="GridView_series15" >
+        </activity>
+        <activity android:name="GridView_series16" >
+        </activity>
+        <activity android:name="GridView_series17" >
+        </activity>
+        <activity android:name="GridView_series18" >
+        </activity>
+        <activity android:name="GridView_series19" >
+        </activity>
+        <activity android:name="GridView_series20" >
+        </activity>
+        <activity android:name="GridView_series21" >
+        </activity>
+        <activity android:name="GridView_series22" >
+        </activity>
+        <activity android:name="GridView_series23" >
+        </activity>
+        <activity android:name="GridView_series24" >
+        </activity>
+        <activity android:name="GridView_series25" >
+        </activity>
+        <activity android:name="GridView_series26" >
+        </activity>
+        <activity android:name="GridView_series27" >
+        </activity>
+        <activity android:name="GridView_series28" >
+        </activity>
+        <activity android:name="GridView_series29" >
+        </activity>
+        <activity android:name="GridView_series30" >
+        </activity>
+        <activity android:name="GridView_series31" >
+        </activity>
+        <activity android:name="GridView_series32" >
+        </activity>
+        <activity android:name="GridView_series33" >
+        </activity>
+        <activity android:name="GridView_series34" >
+        </activity>
+        <activity android:name="PlayActivity" >
+        </activity>
+        <activity android:name="GridView8" >
+        </activity>
+        <activity android:name="GridView9" >
+        </activity>
+        <activity android:name="ShareLink" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name="YouTubePlayerActivity" >
+        </activity>
+        <activity android:name="NextActivity" >
+        </activity>
+
+        <meta-data
+            android:name="com.crashlytics.ApiKey"
+            android:value="897fb052ba756d2fc5b35ecd54a942283239f5d8" />
+
+        <activity android:name="TheWalkingDead" >
+        </activity>
+        <activity android:name="TheWalkingDeadSeason3" >
+        </activity>
+        <activity android:name="TheWalkingDeadseason2" >
+        </activity>
+        <activity android:name="TheWalkingDeadSeason1" >
+        </activity>
+        <activity android:name="Korean" >
+        </activity>
+        <activity android:name="WalkingDead" >
+        </activity>
+        <activity android:name="USseries" >
+        </activity>
+        <activity android:name="GridViewCategory" >
+        </activity>
+        <activity android:name="SplashScreenVideo" >
+        </activity>
+
+       
+
+        <service android:name="com.parse.PushService" />
+
+        <receiver android:name="com.parse.ParseBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.parse.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                <!-- IMPORTANT: Change "com.codemobiles.cmapppush" to match your app's package name. -->
+                <category android:name="com.sattboot.horizontallistview" />
+            </intent-filter>
+        </receiver>
+        <activity android:name="SplashScreenNoti"></activity>
+    </application>
+
+</manifest>

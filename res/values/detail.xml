@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="my_data_array">
+        <item>Movie1</item>
+        <item>Movie2</item>
+        <item>Movie3</item>
+        <item>Movie4</item>
+        <item>Movie5</item>
+        <item>Movie6</item>
+        <item>Movie7</item>
+    </string-array>
+
+</resources>

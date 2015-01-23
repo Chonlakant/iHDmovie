@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/texttitle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#ff3b30"
+        android:padding="@dimen/global_padding"
+        android:text="เข้าสู่ระบบ "
+        android:textColor="#ffffff"
+        android:textSize="@dimen/global_text_size" />
+
+    <Button
+        android:id="@+id/button1"
+        style="@style/ButtonText"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/btn_red"
+        android:text="MOVIE CARD LOGIN"
+        android:textSize="15sp" />
+
+</RelativeLayout>

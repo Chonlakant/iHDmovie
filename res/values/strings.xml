@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">iHD (Underground)</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="description">Media Controls</string>
+    <string name="str_btn">Open Popup Menu</string>
+    <string name="action1">Login</string>
+    <string name="action2">Register</string>
+    <string name="Title">ภาพยนต์  อัพเดพใหม่</string>
+    <string name="Title2">ภาพยนต์  คุณภาพHD</string>
+    <string name="Title3">ภาพยนต์  แนะนำ|ยอดนิยม</string>
+    <string name="Title4">ดูทีวีออนไลน์</string>
+    <string name="Title5">ดูกีฬาออนไลน์</string>
+    <string name="Title7">สาวสวยร้องเพลง</string>
+    <string name="Title9">The Walking Dead Season 1 - 4</string>
+    <string name="Titlelogin">Login  MovieCard</string>
+    <string name="TitleRegister">Register MovieCard</string>
+    
+ 
+
+    <style name="ButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">50dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+</resources>

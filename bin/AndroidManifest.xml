@@ -1,0 +1,216 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="5" android:versionName="1.4" package="com.cloudtist.ihd">
+
+    <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="19"/>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    
+
+
+    <!-- IMPORTANT: Change "com.codemobiles.cmapppush" to match your app's package name. -->
+    <permission android:name="com.sattboot.horizontallistview.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+
+    <uses-permission android:name="com.sattboot.horizontallistview.permission.C2D_MESSAGE"/>
+
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:largeHeap="true" android:name="info.ihd.customlistviewvolley.app.AppController" android:theme="@style/CustomTheme">
+        <activity android:label="@string/app_name" android:name="com.cloudtist.ihd.SplashScreenActivity" android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="com.cloudtist.ihd.MainActivity">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.Detail">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.Player">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.VideoPlayerActivity">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.Login">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.Register">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.GridView1">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.JoinNow">
+        </activity>
+        <activity android:name="com.learn2crack.tab.MainActivityCard">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.MovieCard">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.MovieCardRegister">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.Serach">
+        </activity>
+        <activity android:name="info.androidhive.customlistviewvolley.util.MainActivitySearch">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.GridView3">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.GridView2">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.HelloInterruptVideoStream">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.GridView4">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.GridView0">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.GridView5">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.GridView6">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.GridView_series1">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.GridView_series2">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.GridView_series3">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.GridView_series4">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.GridView_series5">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.GridView_series6">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.GridView_series7">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.GridView_series8">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.GridView_series9">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.GridView_series10">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.GridView_series11">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.GridView_series12">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.GridView_series13">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.GridView_series14">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.GridView_series15">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.GridView_series16">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.GridView_series17">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.GridView_series18">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.GridView_series19">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.GridView_series20">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.GridView_series21">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.GridView_series22">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.GridView_series23">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.GridView_series24">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.GridView_series25">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.GridView_series26">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.GridView_series27">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.GridView_series28">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.GridView_series29">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.GridView_series30">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.GridView_series31">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.GridView_series32">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.GridView_series33">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.GridView_series34">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.PlayActivity">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.GridView8">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.GridView9">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.ShareLink">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+
+                <data android:mimeType="text/plain"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:name="com.google.android.gms.ads.AdActivity"/>
+
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+
+        <activity android:name="com.cloudtist.ihd.YouTubePlayerActivity">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.NextActivity">
+        </activity>
+
+        <meta-data android:name="com.crashlytics.ApiKey" android:value="897fb052ba756d2fc5b35ecd54a942283239f5d8"/>
+
+        <activity android:name="com.cloudtist.ihd.TheWalkingDead">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.TheWalkingDeadSeason3">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.TheWalkingDeadseason2">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.TheWalkingDeadSeason1">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.Korean">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.WalkingDead">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.USseries">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.GridViewCategory">
+        </activity>
+        <activity android:name="com.cloudtist.ihd.SplashScreenVideo">
+        </activity>
+
+       
+
+        <service android:name="com.parse.PushService"/>
+
+        <receiver android:name="com.parse.ParseBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.parse.GcmBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION"/>
+                <!-- IMPORTANT: Change "com.codemobiles.cmapppush" to match your app's package name. -->
+                <category android:name="com.sattboot.horizontallistview"/>
+            </intent-filter>
+        </receiver>
+        <activity android:name="com.cloudtist.ihd.SplashScreenNoti"/>
+		<!--
+        Remove this if your project or a library you are using already makes 
+        use of Google Play Services or Google Ads
+        -->
+        <!-- <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" /> -->
+
+        <activity android:configChanges="touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize" android:launchMode="singleTop" android:multiprocess="true" android:name="mobi.vserv.android.ads.VservAdManager" android:process=":vserv" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize" android:name="mobi.vserv.org.ormma.view.Browser" android:windowSoftInputMode="adjustPan">
+        </activity>
+        <activity android:configChanges="touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize" android:multiprocess="true" android:name="mobi.vserv.org.ormma.view.OrmmaActionHandler" android:process=":vserv" android:windowSoftInputMode="adjustPan">
+        </activity>
+    </application>
+
+</manifest>

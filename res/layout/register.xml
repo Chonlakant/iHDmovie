@@ -1,0 +1,144 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2efef"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/texttitle"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#ff3b30"
+            android:padding="@dimen/global_padding"
+            android:text="เข้าสู่ระบบ"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/global_text_size" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/texttitle"
+            android:text="กรุณากรอกข้อมูลตามความจริง"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/btnsave"
+            style="@style/ButtonText"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="59dp"
+            android:background="@drawable/btn_yellow"
+            android:text="สมัครสมาชิก"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtPassword"
+            android:layout_below="@+id/txtPassword"
+            android:text="Password:"
+            android:textSize="15sp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtUsername"
+            android:layout_below="@+id/txtUsername"
+            android:text="Name :"
+            android:textSize="15sp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/txtName"
+            android:layout_width="285dp"
+            android:layout_height="35dp"
+            android:layout_alignLeft="@+id/textView5"
+            android:layout_below="@+id/textView3"
+            android:background="#ffffff"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtEmail"
+            android:layout_below="@+id/txtName"
+            android:text="Email :"
+            android:textSize="15sp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/txtEmail"
+            android:layout_width="285dp"
+            android:layout_height="35dp"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_below="@+id/textView5"
+            android:background="#ffffff"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtTel"
+            android:layout_below="@+id/txtEmail"
+            android:text="Phone :"
+            android:textSize="15sp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/txtTel"
+            android:layout_width="285dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:background="#ffffff"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtPassword"
+            android:layout_below="@+id/textView1"
+            android:text="Username :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/txtPassword"
+            android:layout_width="285dp"
+            android:layout_height="35dp"
+            android:layout_alignLeft="@+id/txtName"
+            android:layout_below="@+id/textView6"
+            android:background="#ffffff"
+            android:ems="10" />
+
+        <EditText
+            android:id="@+id/txtUsername"
+            android:layout_width="285dp"
+            android:layout_height="35dp"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_below="@+id/textView4"
+            android:background="#ffffff"
+            android:ems="10" />
+
+    </RelativeLayout>
+
+</LinearLayout>

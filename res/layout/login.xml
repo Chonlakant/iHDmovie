@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2efef"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/texttitle"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#ff3b30"
+            android:padding="@dimen/global_padding"
+            android:text="เข้าสู่ระบบ"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/global_text_size" />
+
+        <Button
+            android:id="@+id/button1"
+            style="@style/ButtonText"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_above="@+id/button2"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/btn_red"
+            android:text="เข้าสู่ระบบ"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/ButtonText"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="59dp"
+            android:background="@drawable/btn_yellow"
+            android:text="สมัครสมาชิก"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/editText2"
+            android:layout_alignLeft="@+id/editText2"
+            android:layout_marginBottom="19dp"
+            android:text="Passworld:"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/texttitle"
+            android:text="กรุณากรอกข้อมูล"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/editText1"
+            android:layout_alignRight="@+id/textView2"
+            android:layout_marginBottom="18dp"
+            android:text="Username:"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="285dp"
+            android:layout_height="35dp"
+            android:layout_above="@+id/textView2"
+            android:layout_alignLeft="@+id/button1"
+            android:layout_marginBottom="29dp"
+            android:layout_marginLeft="14dp"
+            android:background="#ffffff"
+            android:ems="10" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="285dp"
+            android:layout_height="35dp"
+            android:layout_above="@+id/button1"
+            android:layout_alignLeft="@+id/editText1"
+            android:layout_marginBottom="48dp"
+            android:background="#ffffff"
+            android:ems="10"
+            android:inputType="textPassword" >
+
+            <requestFocus />
+        </EditText>
+    </RelativeLayout>
+
+</LinearLayout>

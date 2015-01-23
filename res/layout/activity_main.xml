@@ -1,0 +1,234 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity" >
+
+    <com.sattboot.horizontallistview.view.MyScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+       <LinearLayout
+            android:id="@+id/coverflow_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/image_bg"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/listview_layout2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:padding="5dip" >
+
+                <com.sattboot.gallery.widget.CoverFlow
+                    android:id="@+id/of_image_show"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="50dp" >
+                </com.sattboot.gallery.widget.CoverFlow>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                android:background="@color/color_dark_transparent1"
+                android:padding="@dimen/global_padding"
+                android:text="ภาพยนต์  อัพเดพใหม่"
+                android:textColor="@color/color_text2"
+                android:textSize="@dimen/global_text_size" />
+
+            <LinearLayout
+                android:id="@+id/listview_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="220dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:padding="5dip" >
+
+                <com.sattboot.horizontallistview.view.HorizontalListView
+                    android:id="@+id/listview1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@color/color_dark_transparent" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:background="@color/color_dark_transparent1"
+                android:padding="@dimen/global_padding"
+                android:text="ภาพยนต์  คุณภาพHD"
+                android:textColor="@color/color_text"
+                android:textSize="@dimen/global_text_size" />
+
+            <LinearLayout
+                android:id="@+id/listview_layout1"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:padding="5dip" >
+
+                <com.sattboot.horizontallistview.view.HorizontalListView
+                    android:id="@+id/listview2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@color/color_dark_transparent" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:background="@color/color_dark_transparent1"
+                android:padding="@dimen/global_padding"
+                android:text="ภาพยนต์  แนะนำ|ยอดนิยม"
+                android:textColor="#FFC125"
+                android:textSize="@dimen/global_text_size" />
+
+            <LinearLayout
+                android:id="@+id/listview_layout3"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:padding="5dip" >
+
+                <com.sattboot.horizontallistview.view.HorizontalListView
+                    android:id="@+id/listview3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@color/color_dark_transparent" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:background="@color/color_dark_transparent1"
+                android:padding="@dimen/global_padding"
+                android:text="The walking dead"
+                android:textColor="@color/color_text4"
+                android:textSize="@dimen/global_text_size" />
+
+            <LinearLayout
+                android:id="@+id/listview_layout4"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:padding="5dip" >
+
+                <com.sattboot.horizontallistview.view.HorizontalListView
+                    android:id="@+id/listview4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@color/color_dark_transparent" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:background="@color/color_dark_transparent1"
+                android:padding="@dimen/global_padding"
+                android:text="ดูทีวีออนไลน์"
+                android:textColor="#00BFFF"
+                android:textSize="@dimen/global_text_size" />
+
+            <LinearLayout
+                android:id="@+id/listview_layout5"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:padding="5dip" >
+
+                <com.sattboot.horizontallistview.view.HorizontalListView
+                    android:id="@+id/listview5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@color/color_dark_transparent" />
+            </LinearLayout>
+
+           
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:background="@color/color_dark_transparent1"
+                android:padding="@dimen/global_padding"
+                android:text="Trailer"
+                android:textColor="#008080"
+                android:textSize="@dimen/global_text_size" />
+
+            <LinearLayout
+                android:id="@+id/listview_layout8"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:padding="5dip" >
+
+                <com.sattboot.horizontallistview.view.HorizontalListView
+                    android:id="@+id/listview8"
+                    android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@color/color_dark_transparent" />
+            </LinearLayout>
+            
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:background="@color/color_dark_transparent1"
+                android:padding="@dimen/global_padding"
+                android:text="Trailer2"
+                android:textColor="#A52A2A"
+                android:textSize="@dimen/global_text_size" />
+
+            <LinearLayout
+                android:id="@+id/listview_layout9"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:padding="5dip" >
+
+                <com.sattboot.horizontallistview.view.HorizontalListView
+                    android:id="@+id/listview9"
+                    android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@color/color_dark_transparent" />
+            </LinearLayout>
+            
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:padding="5dip" >
+            </LinearLayout>
+        </LinearLayout>
+    </com.sattboot.horizontallistview.view.MyScrollView>
+
+    <include layout="@layout/admob" />
+
+    <include layout="@layout/footer" />
+
+</RelativeLayout>

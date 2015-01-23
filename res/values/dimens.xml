@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="global_padding">8dp</dimen>
+    <dimen name="global_margin">8dp</dimen>
+    <dimen name="global_text_size">18sp</dimen>
+    <dimen name="global_round_corner">10dp</dimen>
+    <dimen name="title">17dp</dimen>
+    <dimen name="rating">15dip</dimen>
+    <dimen name="genre">13dip</dimen>
+    <dimen name="year">12dip</dimen>
+
+    <!-- Sample 1 Layout -->
+    <dimen name="sample_1_layout_1_height">120dp</dimen>
+    <dimen name="sample_1_layout_2_height">80dp</dimen>
+
+</resources>
